@@ -1,6 +1,6 @@
-const allTypes = ["Education", "Recreational", "Social", "Diy", "Charity", "Cooking", "Relaxation", "Music", "Busywork",""];
+const allTypes = ["All","Education", "Recreational", "Social", "Diy", "Charity", "Cooking", "Relaxation", "Music", "Busywork",""];
 var typed = new Typed(".typing-1", {
-    strings:["Education", "Recreational", "Social", "Diy", "Charity", "Cooking", "Relaxation", "Music", "Busywork"],
+    strings:["All","Education", "Recreational", "Social", "Diy", "Charity", "Cooking", "Relaxation", "Music", "Busywork"],
     typeSpeed: 50,
     backSpeed: 30,
     loop: true
