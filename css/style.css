@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+*{
+    margin: 0px 0px;
+    padding: 0px 0px;
+    font-family: 'Indie Flower', cursive;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+body{
+    padding: 80px;
+    background-image: url('https://cutewallpaper.org/21/black-and-white-aesthetic-background/Black-and-White-Background-Images-60-images.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+input:focus{
+    outline:none !important;
+    border: none !important;
+}
+h2,h1{
+    color: white;
+    font-weight: bold !important;
+}
+.input-1{
+    padding: 5px;
+    height: 50px;
+    border-radius: 8px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+.input-2{
+    border: 3px solid white;
+    padding: 5px;
+    height: 50px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 25px;
+    color: white !important;
+    text-align: center;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color:white;
+    opacity: 1; /* Firefox */
+  }
+
+@media only screen and (max-width:500px){
+    body{
+        padding: 50px 20px 100px 20px;
+    }
+}
